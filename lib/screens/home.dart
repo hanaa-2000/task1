@@ -15,6 +15,7 @@ class _HomeState extends State<Home> {
   bool isPlaying = false;
 
   @override
+
   void initState() {
     _confittController =
         ConfettiController(duration: const Duration(milliseconds: 800));
